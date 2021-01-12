@@ -1,0 +1,75 @@
+.box {
+    border: 2px black solid;
+    display: inline-block;
+    background: white;
+    width: 140px;
+    height: 120px;
+    text-align: center;
+
+}
+.Checkbox{
+  display: inline-block;
+  background: white;  
+}
+#Check_box1  #Check_box2  #Check_box3  #Check_box4 {
+    margin-left: 45px;
+    position:relative;
+}
+#One{
+    left: 20px;
+    position: relative;
+
+}
+#Two{
+    margin-left: 45px;
+    position:relative;
+}
+#Three{
+    margin-left: 45px;
+    position:relative;
+}
+#Four{
+    margin-left: 45px;
+    position:relative;
+}
+#Five{
+    top: 300px;
+    right: 805px;
+    position: relative;
+}
+#Six{
+    top: 300px;
+    right: 775px;
+    position: relative;
+}
+#Seven{
+    top: 300px;
+    right: 745px;
+    position: relative;
+}
+#Eight {
+    top: 300px;
+    right: 715px;
+    position: relative;
+}
+#Nine {
+    top: 600px;
+    right: 1495px;
+    position: relative;
+}
+#Ten{
+    top: 600px;
+    right: 1465px;
+    position: relative;
+}
+#Eleven{
+    top: 475px;
+    left: 425px;
+    position: relative;
+}
+#Twelve{
+    top: 475px;
+    left: 455px;
+    position:relative;
+}
+
