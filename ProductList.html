@@ -3,123 +3,115 @@
 <html>
 
 <head>
-  <title>Product List</title>
-  <script
-  src="https://code.jquery.com/jquery-3.5.1.js"
-  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
-  crossorigin="anonymous">
-  </script>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="ProductListExternal.css">
-  <?php
-	$title = "Welcome";
-	include "Header1.php";
-	?>
+	<title>Product List</title>
+	<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+		crossorigin="anonymous">
+		</script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="ProductListExternal.css">
 </head>
 
 <body>
 
-<b><span class="Headline">Product List</span></b>
-</html><hr class="HL1">
-<input  onclick="Redirect()" class="Button"  id="button1" name="Add product" type="button" value="Add product">
-<input class="Button"   id="button2" name="delete_button" type="button" value="Mass Delete" tabindex="15">
+	<b><span class="Headline">Product List</span></b>
+
+
+<hr class="HL1">
+<input onclick="Redirect()" class="Button" id="button1" name="Add product" type="button" value="Add product">
+<input class="Button" id="button2" name="delete_button" type="button" value="Mass Delete" tabindex="15">
 <hr class="HL2">
 <div class="parent">
-<div  class="box parent"   id="One" name="object1">
-JVC200123
-Acme DISC
-1.00$
-Size:700MB
-</div>
-<input class="Keksis" id="Check_box1" name="Check" type="checkbox" >
-<div  class="box" id="Two" name="object2">
-JVC200369
-Acme DISC
-1.00$
-Size:700MB
-</div>
-<input class="Keksis" id="Check_box2" name="Check" type="checkbox" >
-<div  class="box" id="Three" name="object3">
-JVC200442
-Acme DISC
-1.00$
-Size:700MB
-</div>
-<input class="Keksis" id="Check_box3" name="Check" type="checkbox" >
-<div  class="box" id="Four" name="object4">
-JVC200522
-Acme DISC
-1.00$
-Size:700MB
-</div>
-<input class="Keksis" id="Check_box4" name="Check" type="checkbox" >
-<div  class="box" id="Five" name="object5">
-GGWP0007
-War and Peace
-20.00$
-Weight: 2KG
-</div>
-<input class="Keksis" id="Check_box5" name="Check" type="checkbox" >
-<div  class="box" id="Six" name="object6">
-GGWP0008
-War and Peace
-20.00$
-Weight: 2KG
-</div>
-<input class="Keksis" id="Check_box6" name="Check" type="checkbox" >
-<div  class="box" id="Seven" name="object7">
-GGWP0009
-War and Peace
-20.00$
-Weight: 2KG
-</div>
-<input class="Keksis" id="Check_box7" name="Check" type="checkbox" >
-<div  class="box" id="Eight" name="object8">
-GGWP0009
-War and Peace
-20.00$
-Weight: 2KG
-</div>
-<input class="Keksis" id="Check_box8" name="Check" type="checkbox" >
-<div  class="box" id="Nine" name="object9">
-TR120555
-Chair
-40.00$
-Dimension:24x45x15
-</div>
-<input class="Keksis" id="Check_box9" name="Check" type="checkbox" >
-<div  class="box" id="Ten" name="object10">
-TR120666
-Chair
-40.00$
-Dimension:24x45x15
-</div>
-<input class="Keksis" id="Check_box10" name="Check" type="checkbox" >
-<div  class="box" id="Eleven" name="object11">
-TR120777
-Chair
-40.00$
-Dimension:24x45x15
-</div>
-<input class="Keksis" id="Check_box11" name="Check" type="checkbox" >
-<div  class="box" id="Twelve" name="object12">
-TR120888
-Chair
-40.00$
-Dimension:24x45x15
-</div>
-<input class="Keksis" id="Check_box12" name="Check" type="checkbox" >
+	<div class="box parent" id="One" name="object1">
+		JVC200123
+		Acme DISC
+		1.00$
+		Size:700MB
+	</div>
+	<input class="Keksis" id="Check_box1" name="Check" type="checkbox">
+	<div class="box" id="Two" name="object2">
+		JVC200369
+		Acme DISC
+		1.00$
+		Size:700MB
+	</div>
+	<input class="Keksis" id="Check_box2" name="Check" type="checkbox">
+	<div class="box" id="Three" name="object3">
+		JVC200442
+		Acme DISC
+		1.00$
+		Size:700MB
+	</div>
+	<input class="Keksis" id="Check_box3" name="Check" type="checkbox">
+	<div class="box" id="Four" name="object4">
+		JVC200522
+		Acme DISC
+		1.00$
+		Size:700MB
+	</div>
+	<input class="Keksis" id="Check_box4" name="Check" type="checkbox">
+	<div class="box" id="Five" name="object5">
+		GGWP0007
+		War and Peace
+		20.00$
+		Weight: 2KG
+	</div>
+	<input class="Keksis" id="Check_box5" name="Check" type="checkbox">
+	<div class="box" id="Six" name="object6">
+		GGWP0008
+		War and Peace
+		20.00$
+		Weight: 2KG
+	</div>
+	<input class="Keksis" id="Check_box6" name="Check" type="checkbox">
+	<div class="box" id="Seven" name="object7">
+		GGWP0009
+		War and Peace
+		20.00$
+		Weight: 2KG
+	</div>
+	<input class="Keksis" id="Check_box7" name="Check" type="checkbox">
+	<div class="box" id="Eight" name="object8">
+		GGWP0009
+		War and Peace
+		20.00$
+		Weight: 2KG
+	</div>
+	<input class="Keksis" id="Check_box8" name="Check" type="checkbox">
+	<div class="box" id="Nine" name="object9">
+		TR120555
+		Chair
+		40.00$
+		Dimension:24x45x15
+	</div>
+	<input class="Keksis" id="Check_box9" name="Check" type="checkbox">
+	<div class="box" id="Ten" name="object10">
+		TR120666
+		Chair
+		40.00$
+		Dimension:24x45x15
+	</div>
+	<input class="Keksis" id="Check_box10" name="Check" type="checkbox">
+	<div class="box" id="Eleven" name="object11">
+		TR120777
+		Chair
+		40.00$
+		Dimension:24x45x15
+	</div>
+	<input class="Keksis" id="Check_box11" name="Check" type="checkbox">
+	<div class="box" id="Twelve" name="object12">
+		TR120888
+		Chair
+		40.00$
+		Dimension:24x45x15
+	</div>
+	<input class="Keksis" id="Check_box12" name="Check" type="checkbox">
 </div>
 
 
 <script type="text/javascript">
-function Redirect()
-{ location.replace("AddProduct.html")
- }
- </script>
-  <?php
-include "Footer.php";
-?>
+	function Redirect() {
+		location.replace("AddProduct.html")
+	}
+</script>
 </body>
-
-
+</html>
