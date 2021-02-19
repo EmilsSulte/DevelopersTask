@@ -20,16 +20,6 @@ function getForm(select){
  }
  function GoBack(){ window.location.replace("ProductList.html")
 }
-function Validate(){
-    var x, text;
-    x = document.getElementById("Input_box3").value;
-    if (is NaN(x) x = str){
-        text = "Please, enter the price using numbers";
-    }  else {
-        text = "Input is good !";
-    }
-    document.getElementById("demo").innerHtml = text;
-}
 function Redirect(){
     window.location.assign("scandiwebtask.000webhostapp.com/AddProduct.php")
 }

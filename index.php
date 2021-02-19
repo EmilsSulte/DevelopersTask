@@ -19,7 +19,6 @@ if (isset($_GET["page"])==true) {
 </head>
 
 <body>
-    <!-- <?php include './AddProduct.php';?>  -->
     <?php include './Shared/Navigation.php';?>
     <?php
     if ($page == "list") {
@@ -31,5 +30,4 @@ if (isset($_GET["page"])==true) {
     } 
     ?>
 </body>
-
 </html>
